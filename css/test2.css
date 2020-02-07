@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Mircosoft JhengHei;
+}
+.block {
+    position: absolute;
+    background: #FFFFE8;
+    width:300px;
+    height: 900px;
+    box-sizing: border-box;
+}
+.text {
+    margin:15px;
+}
+.textblock {
+    width:120px;
+}
+span {
+    display: block;
+    line-height: 30px;
+    margin-top: 5px;
+}
+input,textarea {
+    padding:5px;
+    border-radius: 5px;
+    border : solid 1px #FFF0D4;
+    background: #FFF0D4	;
+}
+#img {
+    border:solid  #FFFFE8;
+    background: #FFFFE8;
+}
+#resume {
+    background-color: #FFFFE8;
+    border: solid #FFFFE8;
+    font-size: 12px;
+    margin-left: -5px;
+}
+#last {
+    width:50px;
+}
+#remarks {
+    margin-top: 15px;
+}

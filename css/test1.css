@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Microsoft JhengHei;
+}
+.block {
+    position: absolute;
+    top: 35px;
+    left: 450px;
+    width: 380px;
+    padding: 15px 20px;   
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, white, #dfe3ee);
+}
+h3{
+    margin-bottom: 5px;
+}
+.enter {
+    width: 60%;
+    font-size: 16px;
+    padding: 10px ;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border:solid 1px #636363;
+}
+.text {
+    width: 87%;
+}
+.title {
+    margin: 5px 0px;
+    font-size: 20px;
+}
+p {
+    font-size: 12px;
+}
+a {
+    font-size: 12px;
+    color:#3b5998;
+}
+select {
+    margin: 5px 0px;
+}
+.sex {
+    margin-bottom: 10px;
+}
+button {
+    width: 150px;
+    height: 50px;
+    color: white;
+    background: #00A800;
+    border-radius: 10px;
+}
+.btn {
+    font-size: 20px;
+    margin-top: 10px;
+}
