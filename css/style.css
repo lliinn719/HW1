@@ -6,7 +6,7 @@
 .block {
     position: absolute;
     background: #FFFFE8;
-    width:400px;
+    width:350px;
     height:900px;
     box-sizing: border-box;
 }
