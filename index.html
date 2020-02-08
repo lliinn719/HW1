@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Homework</title>
+    <link href = "css/style.css" rel = "stylesheet">
+</head>
+<body>
+    <div class = "block">
+        <form>
+            <div class = "text">
+                <label for = "myname">名字：</label>
+                <input type = "text" class = "textblock">
+            </div>
+            <div class = "text">
+                <label for = "birth">生日：</label>
+                <input type = "date" class = "textblock">
+            </div>
+            <div class = "text">
+                <label for = "mail">信箱：</label>
+                <input type = "text" class = "textblock">
+            </div>
+            <div class = "text">
+                <label for = "password">密碼：</label>
+                <input type = "password" class = "textblock">
+            </div>
+            <div class = "text">
+                <label for = "IQ">智商：</label>
+                <input type = "number" id = "IQ" min = "80" max = "200">
+            </div>
+            <div class = "text">
+                <label for = "resume">履歷：</label>
+                <input type = "file" id = "resume">
+            </div>
+            <div class = "text">
+                <label for = "up">秒懂進度：</label>
+                <span><input type = "checkbox" id = "HTML" name = "HTML"><label for = "HTML"> HTML</label></span>
+                <span><input type = "checkbox" id = "CSS" name = "HTML"><label for = "CSS"></label> CSS</span>
+                <span><input type = "checkbox" id = "Jquery" name = "Jquery"><label for = "Jquery"> Jquery</label></span>
+                <span><input type = "checkbox" id = "layout" name = "layout"><label for = "layout"> 版面切割</label></span>
+                <span><input type = "checkbox" id = "Bootstrap" name = "Bootstrap"><label for = "Bootstrap"> Bootstrap</label></span>
+                <span><input type = "checkbox" id = "BSRWD" name = "BSRWD"><label for = "BSRWD"> Bootstrap+RWD</label></span>
+            </div>
+            <div class = "text">
+                <label for = "hw">作業是否完成：</label>
+                <input type = "radio" name = "hw"> Yes
+                <input type = "radio" name = "hw"> No
+            </div>
+            <div class = "text">
+                <label for = "birth">作業完成時間：</label>
+                <input type = "time" value = "12:00:00">
+            </div>
+            <div class = "text">
+                <label for = "birth">喜歡這次的作業嗎：</label> 
+                <input type = "range" min = "0" max = "100" step = "1" class = "control">
+            </div>
+            <div class = "text">
+                <label for = "remarks">對考試題目有哪些建議：</label>
+                <textarea rows = "3" id = "remarks"></textarea>
+            </div>
+            <div class="text">
+                <input class="btn" type="reset" value="清除"></input>
+                <input class="btn" type="submit" value="送出"></input>
+            </div>
+            <div>
+                <input type="image" id = "img" src = "images/1.png">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
